@@ -3119,6 +3119,7 @@ GameObject:
   - component: {fileID: 355103056}
   - component: {fileID: 355103055}
   - component: {fileID: 355103054}
+  - component: {fileID: 355103057}
   m_Layer: 0
   m_Name: SandHill.003 (1)
   m_TagString: Untagged
@@ -3189,6 +3190,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &355103057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355103053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3490311735635176570, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &358515573
 GameObject:
   m_ObjectHideFlags: 0
@@ -4421,6 +4436,7 @@ GameObject:
   - component: {fileID: 419489437}
   - component: {fileID: 419489439}
   - component: {fileID: 419489438}
+  - component: {fileID: 419489440}
   m_Layer: 0
   m_Name: SandHill.002 (3)
   m_TagString: Untagged
@@ -4490,6 +4506,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419489436}
+  m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
+--- !u!64 &419489440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419489436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &419738052
 GameObject:
@@ -7433,6 +7463,7 @@ GameObject:
   - component: {fileID: 798003487}
   - component: {fileID: 798003489}
   - component: {fileID: 798003488}
+  - component: {fileID: 798003490}
   m_Layer: 0
   m_Name: SandHill.002 (2)
   m_TagString: Untagged
@@ -7502,6 +7533,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798003486}
+  m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
+--- !u!64 &798003490
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798003486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &802818267
 GameObject:
@@ -11175,6 +11220,7 @@ GameObject:
   - component: {fileID: 1320137906}
   - component: {fileID: 1320137905}
   - component: {fileID: 1320137904}
+  - component: {fileID: 1320137907}
   m_Layer: 0
   m_Name: SandHill.001 (1)
   m_TagString: Untagged
@@ -11245,6 +11291,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 27.02, z: 0}
+--- !u!64 &1320137907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320137903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1062430383760460893, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &1321468153
 GameObject:
   m_ObjectHideFlags: 0
@@ -12255,7 +12315,7 @@ MeshCollider:
   m_GameObject: {fileID: 1452754821}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -17051,6 +17111,7 @@ GameObject:
   - component: {fileID: 2047512904}
   - component: {fileID: 2047512906}
   - component: {fileID: 2047512905}
+  - component: {fileID: 2047512907}
   m_Layer: 0
   m_Name: SandHill.002 (1)
   m_TagString: Untagged
@@ -17120,6 +17181,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047512903}
+  m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
+--- !u!64 &2047512907
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047512903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &2053156521
 GameObject:
@@ -17354,9 +17429,17 @@ PrefabInstance:
       propertyPath: jumpStrength
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114503055206606986, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: isGrounded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114503055206606986, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: distanceThreshold
+      value: 0.76
+      objectReference: {fileID: 0}
     - target: {fileID: 136877096903737240, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_Height
-      value: 2.52
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3404824665309619301, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_Volume
@@ -17911,6 +17994,7 @@ GameObject:
   - component: {fileID: 2117104729}
   - component: {fileID: 2117104731}
   - component: {fileID: 2117104730}
+  - component: {fileID: 2117104732}
   m_Layer: 0
   m_Name: SandHill.002 (4)
   m_TagString: Untagged
@@ -17980,6 +18064,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117104728}
+  m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
+--- !u!64 &2117104732
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117104728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
 --- !u!1 &2121106529
 GameObject:
@@ -18427,6 +18525,7 @@ GameObject:
   - component: {fileID: 2144464726}
   - component: {fileID: 2144464725}
   - component: {fileID: 2144464724}
+  - component: {fileID: 2144464727}
   m_Layer: 0
   m_Name: SandHill.002 (1)
   m_TagString: Untagged
@@ -18497,3 +18596,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2144464727
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144464723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3647481864370604732, guid: 40eaeae6b1b0be644a36424d424565c8, type: 3}
